@@ -18,8 +18,8 @@ MQTT_BROKER = "192.168.1.152"
 MQTT_PORT = 1883
 MQTT_TOPIC = "llm/controls"
 
-OLLAMA_URL = "http://localhost:11434/api/chat"
-OLLAMA_MODEL = "llama3.2"
+OLLAMA_URL = "http://localhost:8000/api/chat"
+OLLAMA_MODEL = "llama3.2:3b"
 
 # Current encoder values (updated by MQTT)
 controls = {
